@@ -1,0 +1,198 @@
+body {
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+.navbar-default {
+    background-color: #fff;
+    border: none;
+    margin-bottom: 0;
+    /* box-shadow: 0 2px 8px 0px rgba(50,50,50,0.25); */
+}
+.navbar-default .navbar-brand {
+    color: #40D2B1;
+    font-size: 26px;
+    font-weight: bold;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-toggle {
+    margin-top: 18px;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: #40D2B1;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #1C9982;
+}
+.navbar-default .navbar-nav {
+    padding: 10px 0;
+}
+.navbar-default .navbar-nav>li>a {
+    font-weight: bold;  
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-nav>li>a {
+    height: 50px;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle {
+    height: 34px;
+}
+
+ /* home */
+.home {
+    width: 100%;
+    background: url("../images/home-bg.jpg") no-repeat center;
+    background-size: cover;
+}
+.home .fuceng {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    padding: 80px 0 90px 0;
+}
+.home .fuceng .col-md-10 h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 24px;
+    vertical-align: top;
+}
+.home .fuceng .col-md-10 p {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 35px;
+}
+.home .fuceng .col-md-10 img {
+    display: inline-block;
+    margin-top: 30px;
+}
+/* bbs 部分 */
+.bbs {
+    padding: 80px 0;
+}
+.bbs .col-md-4 {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+.bbs .col-md-4:hover {
+    background-color: #F1F1F1;
+    box-shadow: 1px 1px 4px #ccc;
+}
+.bbs .col-md-4 img {
+    display: block;
+    margin: 0 auto;
+}
+.bbs .col-md-4 h3 {
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 10px 0;
+}
+.bbs .col-md-4 p {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+/* 视频介绍部分 */
+.course-desc .up {
+    width: 100%;
+    background-color: #F8F8F8;
+}
+.course-desc .down {
+    width: 100%;
+    background-color: #fff;
+}
+.course-desc .container {
+    padding: 80px 0;
+}
+.course-desc .container .left {
+    padding: 0 15px;
+}
+.course-desc .container .right {
+    padding: 0 15px;
+}
+.course-desc .container .left h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+.course-desc .container .left p {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.course-desc .container .left .desc {
+    margin-bottom: 10px;
+}
+.course-desc .container .left .desc .ico {
+    font-size: 14px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #41D2B1;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    margin-right: 20px;
+}
+.course-desc .container .left .desc .text {
+    font-size: 14px;
+    line-height: 30px;
+}
+.course-desc .container .right img {
+    display: block;
+}
+/* 最新课程 */
+.new-course {
+    padding: 80px 0;
+    background-color: #F8F8F8;
+}
+.new-course .container {}
+.new-course .row {}
+.new-course .row h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    background-color: #F8F8F8;
+}
+.new-course .row>div {
+    background-color: #F8F8F8;
+    margin-bottom: 20px;
+}
+.new-course .row>div img {
+    display: block;
+    margin: 0 auto;
+}
+.new-course .row>div .study {
+    width: 100%;
+    height: 84px;
+    background-color: #fff;
+    position: relative;
+}
+.new-course .row>div .text {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    width: 146px;
+    border: 1px solid #41D2B1;
+    padding: 8px 40px;
+    color: #41D2B1;
+    font-size: 14px;
+}
+.new-course .row>div .text:hover {
+    text-decoration: none;
+    background-color: #41D2B1;
+    color: #fff;
+}
