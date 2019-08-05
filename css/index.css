@@ -2,14 +2,10 @@ body {
     font-family: 'Microsoft YaHei', sans-serif;
 }
 .navbar-default {
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
-    z-index:100;
     background-color: #fff;
     border: none;
-    margin-bottom: 0;
+    margin: 0;
     box-shadow: 0 2px 8px 0px rgba(50,50,50,0.25);
 }
 .navbar-default .navbar-brand {
